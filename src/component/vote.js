@@ -12,11 +12,11 @@ function Vote(props) {
         <
         p > { count } < /p> <
         p > { props.name } < /p> <
-        h3 style = {
-            { fontSize: "2rem", color: "green", cursor: "pointer" }
+        button style = {
+            { fontSize: "1.5rem", color: "green", cursor: "pointer", backgroundColor: "transparent", border: "none" }
         }
         onClick = { increment } >
-        click here < /h3> < /
+        click here < /button> < /
         div >
     )
 }
